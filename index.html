@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Web App</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="iframe-container">
+    <iframe 
+      src="https://script.google.com/macros/s/AKfycbxC8JoX_-QVduC4q0iX0-WPg8XkAKaqXTpE-HG0elkzVMgHemdm5ra4q0Q_TWBEiE9QYA/exec" 
+      allow="geolocation; microphone; camera"
+      title="Google Apps Script">
+    </iframe>
+  </div>
+
+</body>
+</html>
